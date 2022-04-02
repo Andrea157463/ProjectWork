@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Germin_ping_multiplo/1.0.0": {
+        "runtime": {
+          "Germin_ping_multiplo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Germin_ping_multiplo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿<Window x:Class="Germin_ping_multiplo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Germin_ping_multiplo"
+        mc:Ignorable="d"
+        Title="Ping Multiplo" Height="350" Width="600">
+    <Grid>
+        <TextBox x:Name="txt_IP" HorizontalAlignment="Left" Margin="20,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="224"/>
+        <Button x:Name="btn_Inserisci" Content="Inserisci" HorizontalAlignment="Left" Margin="259,75,0,0" VerticalAlignment="Top" Height="18" Click="btn_Inserisci_Click"/>
+        <ListBox x:Name="lsb_output" Margin="20,123,47,30">
+            <Image x:Name="img_Successo" Source="Successo.jpg" Height="27" Width="37" Visibility="Hidden" />
+        </ListBox>
+
+        <Button x:Name="btn_Avvia" Content="Avvia " HorizontalAlignment="Left" Margin="342,74,0,0" VerticalAlignment="Top" Click="btn_Avvia_Click" Height="21" Width="56"/>
+        <Label Content="Inserisci un indirizzo Ip o il percorso del sito" HorizontalAlignment="Left" Margin="20,35,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_stopTimer" Content="Ferma" HorizontalAlignment="Left" Margin="430,74,0,0" VerticalAlignment="Top" Height="21" Width="45" Click="btn_stopTimer_Click"/>
+        <Button x:Name="btn_azzera" Content="Azzera" HorizontalAlignment="Left" Margin="502,74,0,0" VerticalAlignment="Top" Height="21" Width="51" Click="btn_azzera_Click"/>
+
+    </Grid>
+</Window>
